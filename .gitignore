@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+anotacao.txt
+
+# Datasets and generated files
+data/**/*.csv
+depoly/*
+modelos/catboost_info/
+
+# Keep the project directories in Git
+!data/01-raw/.gitkeep
+!data/02-processed/.gitkeep
+!depoly/.gitkeep
